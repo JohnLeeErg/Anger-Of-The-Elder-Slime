@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1841144783441140781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841144783441140783}
+  - component: {fileID: 1841144783441140782}
+  m_Layer: 0
+  m_Name: RageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841144783441140783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841144783441140781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1841144783441140782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841144783441140781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92da821eac6e93848944e0b23a6dec3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeablesTilemap: {fileID: 0}
+  Slime: {fileID: 0}
+  rageOmeter: 0
+  maxRage: 8
+  minRagePerTile: 1
+  maxRagePerTile: 3
+  decayRate: 8
+  sliceHeight: 0
+  sliceWidth: 0
+  numberOfSlices: 3
+  TopLeftOfGrid: {x: 0, y: 0, z: 0}
+  BottomRightOfGrid: {x: 0, y: 0, z: 0}
+  inhaleSpeed: 5
+  wiggleAmp: 13
+  wiggleFreq: 0.2
+  sleepAmp: 0.5
+  sleepFreq: 0.5
+  moveSpeed: 4
+  angryFaceDelay: 1
+  sinkHeight: -2.14
+  sinkDelay: 0.5
+  cameraShake: {fileID: 0}
+  redBar: {fileID: 0}
+  wholeBar: {fileID: 0}
+  textParticlePrefab: {fileID: 7135049706242119932, guid: 549236eefb3985b4cb4e1b48510b37f6, type: 3}
+  textParent: {fileID: 0}
+  snoreFrequency: 3
+  suckSystem: {fileID: 0}
+  sleepy: {fileID: 21300000, guid: 811709795f92e3c4fbc7c08e3faf1816, type: 3}
+  angry: {fileID: 21300000, guid: c19cb7e5dda58284fbb344c3d0e61302, type: 3}
+  sucky: {fileID: 21300000, guid: f3b97f5a5e44ad1469531c6081491f49, type: 3}
+  satisfied: {fileID: 21300000, guid: 43ee85539cc90054692bebeefd858bbd, type: 3}
+  sugarPrefab: {fileID: 3976040262519379408, guid: 0372c1788b8830a439098bb5ff69336e, type: 3}

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Slime
+  - Tower
+  - Bullet
+  - Builder
+  - Solid
+  - Music
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Tower
+  - Slime
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Sky
+    uniqueID: 3750950283
+    locked: 0
+  - name: Clouds
+    uniqueID: 3988082329
+    locked: 0
+  - name: Mountains
+    uniqueID: 3711547569
+    locked: 0
+  - name: Background
+    uniqueID: 2045192755
+    locked: 0
+  - name: SubObjects
+    uniqueID: 2216768191
+    locked: 0
+  - name: Objects
+    uniqueID: 807860485
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1020154173
+    locked: 0
+  - name: UI
+    uniqueID: 3283426067
+    locked: 0
